@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Zariñana | Portafolio Personal</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado y Navegación Semántica -->
+    <header id="header-principal">
+        <div id="logo">
+            <a href="#home">AZ</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+                <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                <li><a href="#portafolio" class="nav-link">Portafolio</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--  Home -->
+        <section id="home" class="seccion-hero">
+            <div class="hero-contenido">
+                <h1>Alan Esteban Zariñana Arizmendi</h1>
+                <p class="hero-subtitulo">Desarrollador de Software & Diseñador Web</p>
+                <p class="hero-descripcion">
+                    Bienvenido a mi sitio web personal. Me especializo en la creación de interfaces web atractivas, accesibles y optimizadas para brindar la mejor experiencia de usuario.
+                </p>
+                <a href="#contacto" class="boton-primario">Contratar Ahora</a>
+            </div>
+        </section>
+
+        <!--  Sobre mí -->
+        <section id="sobre-mi" class="seccion-contenido">
+            <h2>Sobre mí</h2>
+            <div class="grid-sobre-mi">
+                <div class="columna-imagen">
+                    <img src="https://via.placeholder.com/400x300?text=Perfil+Alan" alt="Fotografía de perfil de Alan Zariñana en su entorno de trabajo" class="imagen-redondeada">
+                </div>
+                <div class="columna-texto">
+                    <p>
+                        Soy estudiante de la carrera de Desarrollo de Software en la Universidad Tecnológica. Me apasiona construir soluciones digitales limpias y funcionales aplicando conceptos modernos de maquetación HTML5 y estilos CSS.
+                    </p>
+                    <p>
+                        Mi objetivo es seguir desarrollando habilidades técnicas que me permitan diseñar plataformas web escalables y adaptadas a las necesidades del cliente.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--  Servicios -->
+        <section id="servicios" class="seccion-contenido bg-alt">
+            <h2>Servicios</h2>
+            <p class="seccion-intro">
+                Ofrezco servicios enfocados en la composición digital y la estructuración eficiente de aplicaciones web.
+            </p>
+            <div class="grid-servicios">
+                <article class="servicio-item">
+                    <img src="https://via.placeholder.com/120?text=UI+UX" alt="Icono descriptivo del servicio de diseño de interfaces web" class="servicio-icono">
+                    <div class="servicio-info">
+                        <h3>Diseño de Interfaces</h3>
+                        <p>
+                            Creación de maquetas digitales navegables y estructuración visual centrada en principios de experiencia de usuario (UX) y usabilidad.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="servicio-item servicio-invertido">
+                    <div class="servicio-info">
+                        <h3>Bases de Datos</h3>
+                        <p>
+                            Modelado, consulta y administración de estructuras de bases de datos relacionales para dar soporte a sistemas web dinámicos.
+                        </p>
+                    </div>
+                    <img src="https://via.placeholder.com/120?text=Bases+de+Datos" alt="Icono descriptivo de administración de bases de datos" class="servicio-icono">
+                </article>
+            </div>
+        </section>
+
+        <!--  Portafolio -->
+        <section id="portafolio" class="seccion-contenido">
+            <h2>Portafolio</h2>
+            <div class="grid-portafolio">
+                <article class="card-proyecto">
+                    <img src="https://via.placeholder.com/350x220?text=Proyecto+1" alt="Captura del Proyecto 1: Plataforma Web E-commerce" class="proyecto-img">
+                    <div class="proyecto-cuerpo">
+                        <h3>Proyecto 1</h3>
+                        <p>Sitio web para catálogo de productos en línea.</p>
+                        <a href="https://github.com" target="_blank" class="enlace-externo">Ver Proyecto &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="card-proyecto">
+                    <img src="https://via.placeholder.com/350x220?text=Proyecto+2" alt="Captura del Proyecto 2: Dashboard Administrativo" class="proyecto-img">
+                    <div class="proyecto-cuerpo">
+                        <h3>Proyecto 2</h3>
+                        <p>Panel de administración de métricas y datos.</p>
+                        <a href="https://github.com" target="_blank" class="enlace-externo">Ver Proyecto &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="card-proyecto">
+                    <img src="https://via.placeholder.com/350x220?text=Proyecto+3" alt="Captura del Proyecto 3: Aplicación Web Institucional" class="proyecto-img">
+                    <div class="proyecto-cuerpo">
+                        <h3>Proyecto 3</h3>
+                        <p>Página corporativa responsiva y optimizada.</p>
+                        <a href="https://github.com" target="_blank" class="enlace-externo">Ver Proyecto &rarr;</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--Contacto -->
+        <section id="contacto" class="seccion-contenido bg-alt">
+            <h2>Contacto</h2>
+            <div class="grid-contacto">
+                <div class="contacto-info">
+                    <div class="mapa-placeholder">
+                        <p><strong>Ubicación:</strong> Emiliano Zapata, Morelos, México</p>
+                    </div>
+                    <ul class="lista-contacto">
+                        <li><strong>Dirección:</strong> Av. Universidad Tecnológica #1</li>
+                        <li><strong>Correo:</strong> 20253ds114@utez.edu.mx</li>
+                        <li><strong>Teléfono:</strong> +52 777 123 4567</li>
+                    </ul>
+                </div>
+                <form class="formulario-contacto" action="#" method="POST">
+                    <div class="campo">
+                        <label for="nombre">Nombre Completo:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre..." required>
+                    </div>
+                    <div class="campo">
+                        <label for="correo">Correo Electrónico:</label>
+                        <input type="email" id="correo" name="correo" placeholder="tu@correo.com" required>
+                    </div>
+                    <div class="campo">
+                        <label for="comentarios">Comentarios:</label>
+                        <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribe tu mensaje..." required></textarea>
+                    </div>
+                    <button type="submit" class="boton-primario">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    
+    <footer>
+        <div class="footer-contenido">
+            <div class="redes-sociales">
+                <a href="https://facebook.com" target="_blank" class="social-link">Facebook</a>
+                <a href="https://instagram.com" target="_blank" class="social-link">Instagram</a>
+            </div>
+            <p class="copyright">&copy; 2026 Alan Esteban Zariñana Arizmendi. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
